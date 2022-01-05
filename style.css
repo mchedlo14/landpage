@@ -1,0 +1,126 @@
+/*************header**************/
+
+.header{
+    max-width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 78px;
+    height: 29px;
+    margin-top: 10px;
+}
+.nav-ul{
+    display: flex;
+    padding-top: 15px;
+}
+.nav-li{
+    margin-left: 36px;
+    font-family: sans-serif;
+    color: #9893A3;
+    font-style: 16px;
+}
+.nav-li span{
+    color: #2F2E41;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: sans-serif;
+}
+.header-buttons-container{
+    width: 270px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.login-btn{
+    width: 102px;
+    height: 51px;
+    color: #6C63FF;
+    font-family: sans-serif;
+    font-style: 14px;
+    border: 1px solid #6C63FF;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+.getstarted-btn{
+    background-color: #6C63FF;
+    color: white;
+    width: 140px;
+    height: 51px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.fa-bars{
+    font-size: 24px;
+    margin-top: 8px;
+    display: none;
+}
+
+
+/************** first section ****************/
+
+
+.first-section{
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-block{
+    width: 489px;
+    height: auto;
+    margin-top: 41px;
+}
+.left-block-title{
+    font-family: sans-serif;
+    font-size: 86px;
+    color: #2F2E41;
+    line-height: 88px;
+    font-weight: 700;
+}
+.left-block-text{
+    color: #9893A3;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.section-first-btn{
+    width: 140px;
+    height: 51px;
+    margin-top: 30px;
+    border: 1px solid #6C63FF;
+    background: #6C63FF;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.first-section-image{
+    width: 642px;
+    height: 559px;
+}
+
+/***************logo section*************/
+
+.logo-section{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*************slider *************/
+.swiper {
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-top: 150px;
+  }
